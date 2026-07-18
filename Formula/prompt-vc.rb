@@ -1,17 +1,9 @@
-# ==============================================================================
-# Homebrew formula skeleton -- NOT tapped or published this milestone.
-#
-# The `url`/`sha256` pairs below are placeholders. They are filled in AFTER
-# the user manually cuts a real v0.0.1 release (pushes a `v0.0.1` tag,
-# `.github/workflows/release.yml` builds the 5 targets, and the resulting
-# GitHub Release assets + SHA256SUMS become the real values here). Until
-# then this formula is not registered in any tap and `brew install` cannot
-# resolve it -- it is staged release-collateral only (DIST-01, prepare-only).
-# ==============================================================================
+# Homebrew formula for prompt-vc. Distributed via the UnityInFlow tap:
+#   brew install unityinflow/tap/prompt-vc
+# The `url`/`sha256` pairs point at the v0.0.1 GitHub Release binaries.
 class PromptVc < Formula
-  desc "Version control for system prompts -- semantic diff, A/B comparison runs, changelogs"
+  desc "Version control for system prompts: semantic diff, A/B runs, changelogs"
   homepage "https://github.com/UnityInFlow/prompt-vc"
-  version "0.0.1"
   license "MIT"
 
   on_macos do
